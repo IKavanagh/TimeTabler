@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Ian Kavanagh
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <!-- General ids -->
+    <item name="divider" type="id"/>
+    <item type="id" name="cancel"/>
+    <item type="id" name="done"/>
+
+    <!-- Account detail ids -->
+    <item name="programme_code" type="id"/>
+    <item name="year" type="id"/>
+    <item name="create_account" type="id"/>
+
+    <!-- Event / Create event ids -->
+    <item type="id" name="event_type"/>
+    <item type="id" name="custom_event_type"/>
+    <item type="id" name="module"/>
+    <item type="id" name="location"/>
+    <item type="id" name="lecturer"/>
+    <item type="id" name="notes"/>
+    <item type="id" name="date"/>
+    <item type="id" name="start_date"/>
+    <item type="id" name="start_time"/>
+    <item type="id" name="end_date"/>
+    <item type="id" name="end_time"/>
+    <item type="id" name="week"/>
+    <item type="id" name="day"/>
+    <item type="id" name="time"/>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Ian Kavanagh
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="title_activity_create_event">Create event</string>
+    <string name="title_event_list">Events</string>
+    <string name="title_event_detail">Event Detail</string>
+
+    <!-- Event strings -->
+    <string name="event_type">Event Type</string>
+    <string name="title">Title</string>
+    <string name="module">Module</string>
+    <string name="location">Location</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="from">From</string>
+    <string name="start_date">Start Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="to">To</string>
+    <string name="end_date">End Date</string>
+    <string name="end_time">End Time</string>
+    <string name="notes">Notes</string>
+    <string name="untitled">Untitled</string>
+
+    <!-- Event type string -->
+    <string name="lecture">Lecture</string>
+    <string name="practical">Practical</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="seminar">Seminar</string>
+
+    <!-- Event view strings -->
+    <string name="agenda">Agenda</string>
+    <string name="agenda_header">Touch to view events before </string>
+    <string name="agenda_footer">Touch to view events after </string>
+    <string name="empty_no_events_upcoming">You have no upcoming events</string>
+
+    <!-- Messages -->
+    <string name="message_error_cant_find_event">Unable to find event in database</string>
+    <string name="message_empty_event">Empty event not saved</string>
+    <string name="message_event_saved_failure">Something happened and we could not save your event</string>
+    <string name="message_no_event_found">Something went wrong and we couldn\'t find that event</string>
+
+    <!-- Dialogs -->
+    <string name="message_event_delete_single">Are you sure you want to delete %1$s on %2$s at %3$s?</string>
+    <string name="title_event_delete">Delete event</string>
+    <string name="message_event_delete_failure">Something happened and we were unable to delete that event</string>
+
+    <!-- General strings -->
+    <string name="week">Week</string>
+    <string name="empty_waiting_for_sync">Waiting for sync&#8230;</string>
+    <string name="overlay">Overlay</string>
+
+    <!-- Menu strings -->
+    <string name="new_event">New event</string>
+    <string name="edit_event">Edit event</string>
+    <string name="delete_event">Delete event</string>
+    <string name="go_to_today">Go to today</string>
+
+</resources>

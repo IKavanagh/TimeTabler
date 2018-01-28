@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Ian Kavanagh
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Account settings -->
+    <string name="pref_header_account">Account</string>
+    <string name="pref_key_programme_code">programme_code</string>
+    <string name="pref_title_programme_code">Programme code</string>
+    <string name="pref_key_year">year</string>
+    <string name="pref_title_year">Year</string>
+
+    <string name="action_remove_account">Remove account</string>
+
+    <!-- Data & Sync settings -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_key_sync_frequency">sync_frequency</string>
+    <string name="pref_default_sync_frequency">172800</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>Every 12 hours</item>
+        <item>Every day</item>
+        <item>Every 2 days</item>
+        <item>Every 5 days</item>
+        <item>Every week</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>43200</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>432000</item>
+        <item>604800</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_sync_wifi">Sync over Wi-Fi only</string>
+    <string name="pref_key_sync_wifi">sync_wifi</string>
+    <string name="pref_default_sync_wifi">false</string>
+
+    <!-- Settings for About & Support -->
+    <string name="pref_header_about_support">About</string>
+    <string name="pref_title_version">Version name</string>
+    <string name="pref_title_report">Report an issue</string>
+    <string name="pref_title_changelog">Changelog</string>
+
+    <!-- Settings for System -->
+    <string name="pref_title_system_general">General Settings</string>
+    <string name="pref_title_system_account">Account Settings</string>
+    <string name="pref_summary_system_account">Sync frequency, notifications, etc.</string>
+
+</resources>

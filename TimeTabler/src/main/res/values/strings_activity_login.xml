@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Ian Kavanagh
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="title_activity_login">Log in</string>
+
+    <!-- Account strings -->
+    <string name="account_name">DCU class details</string>
+    <string name="account_type">ie.clashoftheash.timetabler.account</string>
+
+    <!-- Strings related to login screen -->
+    <string name="message_tell_us">Please tell us a bit about yourself</string>
+    <string name="prompt_programme_code">Programme code</string>
+    <string name="prompt_year">Year of study</string>
+    <string name="action_create_account">Create account</string>
+
+    <!-- Error strings -->
+    <string name="error_invalid_programme_code">This programme code is invalid</string>
+    <string name="error_invalid_year">This year is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_account_exists_title">Account already exists</string>
+    <string name="error_account_exists_message">Only one account can exist at a time</string>
+    <string name="error_authenticating">Failed to authenticate, please try again</string>
+
+    <!-- Progress strings -->
+    <string name="progress_authenticating">Authenticating&#8230;</string>
+
+    <!-- Update/Remove strings -->
+    <string name="title_account_remove">Remove account?</string>
+    <string name="message_account_remove">You will lose all your timetable information</string>
+    <string name="updated_account_success">Account updated successfully</string>
+    <string name="remove_account_success">Account removed successfully</string>
+    <string name="remove_account_failure">Failed to remove account, please try again.</string>
+    
+    <!-- Message strings -->
+    <string name="account_already_exists">Only 1 account is allowed at a time</string>
+
+</resources>

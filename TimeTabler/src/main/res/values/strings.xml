@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Ian Kavanagh
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">TimeTabler</string>
+    <string name="version_name">0.1.0</string>
+    <string name="timetable_url" tools:ignore="TypographyDashes">http://ttcache.dcu.ie/Reporting/Individual;Programmes+of+Study;name;%1$s%2$s?template=Studprog&amp;weeks=%3$s&amp;days=1-5&amp;periods=3-20&amp;Width=0&amp;Height=0</string>
+    <string name="title_service_sync">Timetable sync</string>
+
+    <!-- Network issues -->
+    <string name="message_no_connection">Could not connect to the internet</string>
+    <string name="enable_wifi">Enable Wifi/3G</string>
+    <string name="message_redirect">Your internet connection requires you to sign in</string>
+    <string name="sign_in">Sign in</string>
+
+    <!-- General strings -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_done">Done</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_update">Update</string>
+    <string name="custom">Custom</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+
+</resources>
